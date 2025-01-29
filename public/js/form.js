@@ -7,10 +7,8 @@ const form = document.querySelector("form"),
     message = document.querySelector("#message"),
     dates = document.querySelector("#date"),
     tel = document.querySelector('#tel')
-    console.log(tel)
 form.addEventListener("submit", async e => {
     e.preventDefault();
-    console.log(tel.value)
     let a = nom.value,
         r = depart.value,
         t = destination.value,
